@@ -1,0 +1,2 @@
+# 统一行尾符，避免 Windows 上每次 add 都刷 LF/CRLF 警告
+* text=auto eol=lf

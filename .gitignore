@@ -1,0 +1,34 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+
+# 测试产物
+demo/out/
+*.log
+
+# Office 锁文件
+~$*
+
+# 学习资料与生成脚本（不进代码仓库）
+*.xlsx
+build_plan_xlsx.py
+build_v2.py
+verify_plan_xlsx.py
+
+# 系统
+.DS_Store
+Thumbs.db
