@@ -19,6 +19,10 @@
 ## 3. git add 提示 LF will be replaced by CRLF
 
 - **现象**：每次 `git add` 新文件都刷这条警告
+
 - **原因**：Windows 上 `core.autocrlf=true`，提交时把 CRLF 转成 LF 存储，检出时再转回来。
   这是 Git 的跨平台设计，**不是错误**
+  
 - **解法**：加 `.gitattributes`，写 `* text=auto eol=lf`，统一用 LF，警告消失
+
+  今天完成了git闭环
